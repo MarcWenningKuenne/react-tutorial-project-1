@@ -5,6 +5,7 @@
 body {
     margin: 0;
     font-family: Inter, sans-serif;
+    background-color: #282D35;
 }
 
 nav {
@@ -32,4 +33,24 @@ nav {
 .nav--logo {
     height: 30px;
     margin-right: 7px;
+}
+
+main {
+    padding: 50px 25px;
+    color: white;
+}
+
+.main--title {
+    margin: 0px;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+
+.main--facts {
+    margin-top: 45px;
+    max-width: 400px;
+}
+
+.main--facts > li {
+    padding-block: 10px;
 }
