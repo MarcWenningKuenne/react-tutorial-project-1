@@ -54,3 +54,8 @@ main {
 .main--facts > li {
     padding-block: 10px;
 }
+
+.main--facts > li::marker {
+    color: #61DAFB;
+    font-size: 1.4rem;
+}
